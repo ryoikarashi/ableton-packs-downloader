@@ -10,6 +10,7 @@ cd ableton-packs-downloader
 ```
 
 2. Save your cookies.txt by using [`cookies.txt`](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en) chrome extension into the folder you've cloned.
+* If you are not logged in, first login and then export `cookies.txt`
 
 3. Edit the script and change the distination path
 
