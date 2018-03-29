@@ -5,7 +5,7 @@
 1. First clone the git repository
 
 ```bash
-git clone https://github.com
+git clone https://github.com/RyoIkarashi/ableton-packs-downloader.git
 ```
 
 2. Save your cookies.txt by using [`cookies.txt`](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en) chrome extension into the folder you've cloned.
