@@ -12,18 +12,14 @@ cd ableton-packs-downloader
 2. Save your cookies.txt by using [`cookies.txt`](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en) chrome extension into the folder you've cloned.
 * If you are not logged in, first login and then export `cookies.txt`
 
-3. Edit the script and change the distination path
+3. Run the script to install packs
 
-`download-packs.sh`
-
-```sh
-# Change /Path/to/your/ableton/plugins/folder to your own
-DIST=/Path/to/your/ableton/plugins/folder
-```
-
-4. Finally run the script
+| option | description |
+| ---- | ----------- |
+| -c   | path to your cookie.txt (**required**) |
+| -o   | path to your download directory (**required**) |
 
 ```sh
 chmod +x ./download-packs.sh
-./download-packs.sh
+./download-packs.sh -c /path/to/cookie.txt -o /path/to/download/dir
 ```
