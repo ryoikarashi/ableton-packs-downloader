@@ -9,6 +9,10 @@ o) OUTPUT=$OPTARG;;
 esac
 done
 
+echo '###################################';
+echo '# Downloading packs for Ableton 10 ';
+echo '###################################';
+
 PACKS=(
     'https://ableton.com/en/packs/beat-tools/download/6361612/'
     'https://ableton.com/en/packs/retro-synths/download/6361612/'
@@ -56,6 +60,43 @@ PACKS=(
     'https://ableton.com/en/packs/forge/download/6361612/'
     'https://ableton.com/en/packs/unnatural-selection/download/6361612/'
     'https://ableton.com/en/packs/vinyl-classics/download/6361612/'
+    'https://ableton.com/en/packs/beat-tools/download/10187068/'
+    'https://ableton.com/en/packs/brass-quartet/download/10187068/'
+    'https://ableton.com/en/packs/build-and-drop/download/10187068/'
+    'https://ableton.com/en/packs/cv-tools/download/10187068/'
+    'https://ableton.com/en/packs/chop-and-swing/download/10187068/'
+    'https://ableton.com/en/packs/connection-kit/download/10187068/'
+    'https://ableton.com/en/packs/convolution-reverb/download/10187068/'
+    'https://ableton.com/en/packs/creative-extensions/download/10187068/'
+    'https://ableton.com/en/packs/drive-and-glow/download/10187068/'
+    'https://ableton.com/en/packs/drone-lab/download/10187068/'
+    'https://ableton.com/en/packs/drum-booth/download/10187068/'
+    'https://ableton.com/en/packs/drum-essentials/download/10187068/'
+    'https://ableton.com/en/packs/electric-keyboards/download/10187068/'
+    'https://ableton.com/en/packs/glitch-and-wash/download/10187068/'
+    'https://ableton.com/en/packs/grand-piano/download/10187068/'
+    'https://ableton.com/en/packs/granulator-ii/download/10187068/'
+    'https://ableton.com/en/packs/guitar-and-bass/download/10187068/'
+    'https://ableton.com/en/packs/inspired-nature/download/10187068/'
+    'https://ableton.com/en/packs/latin-percussion/download/10187068/'
+    'https://ableton.com/en/packs/mood-reel/download/10187068/'
+    'https://ableton.com/en/packs/orchestral-brass/download/10187068/'
+    'https://ableton.com/en/packs/orchestral-percussion/download/10187068/'
+    'https://ableton.com/en/packs/orchestral-strings/download/10187068/'
+    'https://ableton.com/en/packs/orchestral-woodwinds/download/10187068/'
+    'https://ableton.com/en/packs/pitchloop89/download/10187068/'
+    'https://ableton.com/en/packs/probability-pack/download/10187068/'
+    'https://ableton.com/en/packs/punch-and-tilt/download/10187068/'
+    'https://ableton.com/en/packs/retro-synths/download/10187068/'
+    'https://ableton.com/en/packs/session-drums-club/download/10187068/'
+    'https://ableton.com/en/packs/session-drums-multimic/download/10187068/'
+    'https://ableton.com/en/packs/session-drums-studio/download/10187068/'
+    'https://ableton.com/en/packs/skitter-and-step/download/10187068/'
+    'https://ableton.com/en/packs/string-quartet/download/10187068/'
+    'https://ableton.com/en/packs/surround-panner/download/10187068/'
+    'https://ableton.com/en/packs/synth-essentials/download/10187068/'
+    'https://ableton.com/en/packs/upright-piano/download/10187068/'
+    'https://ableton.com/en/packs/voice-box/download/10187068/'
 )
 
 wget --load-cookies ${COOKIE} --content-disposition ${PACKS[@]} -P "${OUTPUT}"
