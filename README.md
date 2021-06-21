@@ -1,4 +1,4 @@
-# A batch script for downloading all ableton packs
+# A batch script for downloading packs for Ableton Live 10
 
 ## How to use
 

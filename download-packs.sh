@@ -9,9 +9,9 @@ o) OUTPUT=$OPTARG;;
 esac
 done
 
-echo '###################################';
-echo '# Downloading packs for Ableton 10 ';
-echo '###################################';
+echo '########################################';
+echo '# Downloading packs for Ableton Live 10 ';
+echo '########################################';
 
 PACKS=(
     'https://ableton.com/en/packs/beat-tools/download/6361612/'
