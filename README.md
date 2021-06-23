@@ -9,7 +9,7 @@ git clone https://github.com/RyoIkarashi/ableton-packs-downloader.git
 cd ableton-packs-downloader
 ```
 
-2. Save your cookies.txt by using [`cookies.txt`](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en) chrome extension into the folder you've cloned.
+2. Save your cookies.txt by using [`cookies.txt`](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid?hl=en) chrome extension into the folder you've cloned.
 * If you are not logged in, first login and then export `cookies.txt`
 
 3. Run the script to install packs
